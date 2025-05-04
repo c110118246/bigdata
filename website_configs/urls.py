@@ -34,10 +34,13 @@ urlpatterns = [
     #path('correlation/', include('app_correlation_analysis.urls')),
 
     # top k person using db
-    #path('topperson_db/', include('app_top_person_db.urls')),
+    path('topperson_db/', include('app_top_person_db.urls')),
     
     # full text search and associated keyword display using db
     #path('userkeyword_assoc_db/', include('app_user_keyword_association_db.urls')),
+    
+    # full text search and associated keyword display using db
+    path('userkeyword_db/', include('app_user_keyword_db.urls')),
 
     # admin
     path('admin/', admin.site.urls),

@@ -34,6 +34,8 @@ INSTALLED_APPS = [
     'app_user_keyword_association',
     'app_user_keyword_sentiment',
     'app_taipei_mayor',
+    'app_top_person_db',
+    'app_user_keyword_db',
 ]
 
 MIDDLEWARE = [
