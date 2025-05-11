@@ -33,7 +33,7 @@ urlpatterns = [
     #path('', include('app_taipei_mayor.urls')),
 
     # correlation
-    path('correlation/', include('app_correlation_analysis.urls')),
+    #path('correlation/', include('app_correlation_analysis.urls')),
 
     # top k person using db
     path('topperson_db/', include('app_top_person_db.urls')),
@@ -49,7 +49,7 @@ urlpatterns = [
     
     
     # course introduction
-    path('poa_intro/', include('app_poa_introduction.urls')),
+    #path('poa_intro/', include('app_poa_introduction.urls')),
     
     # Sentiment classification with bert
     #path('sentiment/', include('app_sentiment_bert.urls')),
