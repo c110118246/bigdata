@@ -1,0 +1,130 @@
+/* 全站通用主色系與字體設定 */
+body {
+  background-color: #f5f3ef; /* 淺灰白 */
+  color: #1C1C1C; /* 深灰接近黑 */
+  font-family: 'Segoe UI', 'Noto Sans TC', sans-serif;
+}
+
+/* 導覽列 */
+.navbar {
+  background-color: #f3e0be !important;
+  border-bottom: 2px solid #d2ba8d;
+}
+
+.navbar-nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;  /* 左右均分間距 */
+  gap: 20px;  /* 按鈕間隔 20px */
+  flex-wrap: nowrap;  /* 不換行 */
+}
+
+
+.navbar-brand,
+.nav-link,
+.dropdown-item,
+.btn {
+  color: #1C1C1C !important;
+}
+
+.nav-link:hover,
+.dropdown-item:hover,
+.btn:hover {
+  color: #fff !important;
+  background-color: #C9A86B !important;
+}
+
+/* 下拉選單 */
+.dropdown-menu {
+  background-color: #fff;
+  border: 1px solid #C9A86B;
+}
+
+.dropdown-divider {
+  border-top: 1px solid #C9A86B;
+}
+
+/* 按鈕 */
+.btn-primary {
+  background-color: #C9A86B;
+  border-color: #C9A86B;
+  color: #fff;
+}
+
+.btn-outline-primary {
+  background-color: #fff;
+  border: 1px solid #C9A86B;
+  color: #C9A86B;
+}
+
+.btn-outline-primary:hover {
+  background-color: #C9A86B;
+  color: #fff;
+}
+
+/* 卡片風格 */
+.card {
+  border-radius: 12px;
+  border: none;
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.card-header {
+  font-weight: 600;
+  font-size: 1rem;
+  background-color: #C9A86B;
+  color: #fff;
+}
+
+.card-header.bg-dark {
+  background-color: #1C1C1C !important;
+}
+
+.card-header.bg-info {
+  background-color: #3e3e3e !important;
+}
+
+/* 表格 */
+table {
+  background-color: #fff;
+  color: #1C1C1C;
+}
+
+thead {
+  background-color: #C9A86B;
+  color: #fff;
+}
+
+/* 分頁 */
+.pagination .page-item.active .page-link {
+  background-color: #C9A86B;
+  border-color: #C9A86B;
+  color: white;
+}
+
+.pagination .page-link {
+  color: #C9A86B;
+  border-radius: 6px;
+  border: 1px solid #C9A86B;
+  background-color: #fff;
+}
+
+.pagination .page-link:hover {
+  background-color: #A6813C;
+  color: white;
+  border-color: #A6813C;
+}
+
+/* 搜尋框 */
+input[type="search"],
+input[type="text"] {
+  border: 1px solid #C9A86B;
+  border-radius: 6px;
+}
+
+input[type="search"]:focus,
+input[type="text"]:focus {
+  box-shadow: 0 0 0 0.2rem rgba(201, 168, 107, 0.25);
+  border-color: #A6813C;
+}
