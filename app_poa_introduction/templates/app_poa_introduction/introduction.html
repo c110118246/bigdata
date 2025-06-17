@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>輿情分析專題介紹</title>
+
+    <!-- Favicons -->
+    <link href="/static/assets_api_intro/img/favicon.png" rel="icon" />
+    <link href="/static/assets_api_intro/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+
+    <!-- Vendor CSS Files -->
+    <link href="/static/assets_api_intro/vendor/aos/aos.css" rel="stylesheet" />
+    <link href="/static/assets_api_intro/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/static/assets_api_intro/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+    <link href="/static/assets_api_intro/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link href="/static/assets_api_intro/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+    <link href="/static/assets_api_intro/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Template Main CSS File -->
+    <link href="/static/assets_api_intro/css/style.css" rel="stylesheet" />
+
+    <style>
+      body {
+        font-family: 'Poppins', sans-serif;
+        background: #f5f9ff;
+        color: #333;
+      }
+      header {
+        background-color: #fff;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      }
+      #hero {
+        background: linear-gradient(to right, #4facfe, #00f2fe);
+        color: white;
+        padding: 100px 0;
+      }
+      #hero h1 {
+        font-size: 48px;
+        font-weight: 700;
+        animation: fadeInDown 1s ease-out;
+      }
+      #hero h2 {
+        font-size: 30px;
+        margin-top: 20px;
+        animation: fadeInUp 1s ease-out;
+      }
+      section {
+        padding: 60px 0;
+      }
+      .section-title {
+        margin-bottom: 40px;
+        text-align: center;
+      }
+      .features {
+        background: linear-gradient(to bottom,rgb(199, 223, 225), #f5f9ff);
+        padding: 100px 0;
+      }
+      .features ul, .details ul {
+        list-style: none;
+        padding-left: 0;
+      }
+      .features li, .details li {
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        font-size: 18px;
+      }
+      .features li i, .details li i {
+        color: #0dcaf0;
+        margin-right: 10px;
+      }
+      .img-section {
+        text-align: center;
+        margin-top: 30px;
+      }
+      .img-section img {
+        max-width: 100%;
+        border-radius: 15px;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        animation: fadeIn 2s;
+      }
+      footer {
+        background-color: #f8f9fa;
+        padding: 20px 0;
+        text-align: center;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header id="header" class="fixed-top header-transparent">
+      <div class="container d-flex align-items-center justify-content-between">
+        <div class="logo">
+          <h1><a href="#">輿情分析專題</a></h1>
+        </div>
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a class="nav-link scrollto active" href="#hero">首頁</a></li>
+            <li><a class="nav-link scrollto" href="#features">功能介紹</a></li>
+            <li><a class="nav-link scrollto" href="#details">技術細節</a></li>
+            <li><a href="/">Back to POA website</a></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+      </div>
+    </header>
+
+    <section id="hero" class="d-flex align-items-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-right">
+            <h1>輿情分析專題系統</h1>
+            <h2>以台視新聞網為資料來源，實現多種分析功能，助您掌握輿情動態。</h2>
+          </div>
+          <div class="col-lg-6 hero-img text-center" data-aos="fade-left">
+            <img src="/static/assets_api_intro/img/hero-img.png" class="img-fluid" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <main id="main">
+      <section id="features" class="features">
+        <div class="container">
+          <div class="section-title" data-aos="fade-up">
+            <h2>功能介紹</h2>
+            <p>本系統提供以下分析工具與視覺化展示：</p>
+          </div>
+          <div class="row align-items-center">
+            <div class="col-md-7" data-aos="fade-right">
+              <ul>
+                <li><i class="bi bi-check-circle"></i> 熱門關鍵詞分析</li>
+                <li><i class="bi bi-check-circle"></i> 熱門人物排行分析</li>
+                <li><i class="bi bi-check-circle"></i> 自訂關鍵詞熱門度分析</li>
+                <li><i class="bi bi-check-circle"></i> 自訂全文檢索與關聯分析</li>
+                <li><i class="bi bi-check-circle"></i> 自訂關鍵詞情緒分析</li>
+                <li><i class="bi bi-check-circle"></i> 語言模型自動產生分析報告</li>
+                <li><i class="bi bi-check-circle"></i> 川普聲量我最大分析頁</li>
+                <li><i class="bi bi-check-circle"></i> 熱門人物觀測站（川普、賴清德、柯文哲）</li>
+                <li><i class="bi bi-check-circle"></i> 從資料庫查詢熱門人物</li>
+                <li><i class="bi bi-check-circle"></i> 即時更新熱門人物資料庫</li>
+                <li><i class="bi bi-check-circle"></i> 米其林餐廳分析</li>
+              </ul>
+            </div>
+            <div class="col-md-5" data-aos="fade-left">
+              <img src="/static/assets_api_intro/img/features.svg" class="img-fluid" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="details" class="details bg-light">
+        <div class="container">
+          <div class="section-title" data-aos="fade-up">
+            <h2>技術細節與資料來源</h2>
+          </div>
+          <div class="row">
+            <div class="col-md-6" data-aos="fade-up">
+              <h3>資料來源</h3>
+              <p>本系統使用爬蟲擷取 <strong>台視新聞網</strong> 的五大分類新聞資料：</p>
+              <ul>
+                <li><i class="bi bi-chevron-right"></i> 政治</li>
+                <li><i class="bi bi-chevron-right"></i> 娛樂</li>
+                <li><i class="bi bi-chevron-right"></i> 體育</li>
+                <li><i class="bi bi-chevron-right"></i> 國際</li>
+                <li><i class="bi bi-chevron-right"></i> 社會</li>
+              </ul>
+            </div>
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+              <h3>技術架構</h3>
+              <ul>
+                <li><i class="bi bi-code-slash"></i> Python 爬蟲擷取新聞資料</li>
+                <li><i class="bi bi-code-slash"></i> Django </li>
+                <li><i class="bi bi-code-slash"></i> PostgreSQL 作為資料庫</li>
+                <li><i class="bi bi-robot"></i> 進行情緒與關鍵詞分析</li>
+                <li><i class="bi bi-layers"></i> 前端整合 Bootstrap + Animate.css</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="special-features" class="details bg-white" style="padding: 60px 0;">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>特色分析功能介紹</h2>
+            <p>本系統除新聞輿情分析外，還提供以下特色分析與資料來源：</p>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <h3>米其林餐廳列表分析</h3>
+              <p>本平台整合米其林餐廳公開資料，使用者可依據餐廳地區與菜系（如台灣菜、粵菜等）進行篩選，或自行輸入關鍵字查詢。系統將即時呈現該條件下的餐廳分布長條圖，並列出對應的餐廳清單，協助消費者快速掌握熱門餐廳趨勢，也提供餐飲業者市場分析參考。</p>
+            </div>
+            <div class="col-md-6">
+              <h3>資料網站來源</h3>
+              <ul>
+                
+              <li>
+                <i class="bi bi-link-45deg"></i>
+                <a href="https://guide.michelin.com/tw/zh_TW/restaurants" target="_blank" rel="noopener noreferrer">
+                米其林官方網站
+                </a>
+              </li>
+
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <div class="container py-4">
+        <div class="copyright">
+          &copy; Copyright <strong><span>輿情分析專題</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          設計參考模板: <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
+      </div>
+    </footer>
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="/static/assets_api_intro/vendor/aos/aos.js"></script>
+    <script src="/static/assets_api_intro/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="/static/assets_api_intro/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="/static/assets_api_intro/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="/static/assets_api_intro/vendor/php-email-form/validate.js"></script>
+    <script src="/static/assets_api_intro/js/main.js"></script>
+
+    <script>
+      AOS.init({
+        duration: 1000,
+        once: true
+      });
+    </script>
+  </body>
+</html>
