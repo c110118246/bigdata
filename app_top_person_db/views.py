@@ -141,7 +141,7 @@ def calculate_top_person(request):
 
 
 allowedNE=['PERSON']
-news_categories=['政治','科技','運動','證卷','產經','娛樂','生活','國際','社會','文化','兩岸']
+news_categories=['政治','科技','體育','證卷','產經','娛樂','生活','國際','社會','文化','兩岸']
 def ne_word_frequency( a_news_ne ):
     filtered_words =[]
     for ner,word in a_news_ne:
